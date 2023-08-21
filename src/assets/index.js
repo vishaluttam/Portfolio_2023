@@ -28,6 +28,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import horizonpc from "./company/horizon.png";
 import highradius from "./company/highradius.webp";
 import coursera from "./company/coursera.png";
 import graduate from "./company/graduate.png";
@@ -75,4 +76,5 @@ export {
   ArticleSUM,
   arrow,
   HRC,
+  horizonpc,
 };

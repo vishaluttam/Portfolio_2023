@@ -29,6 +29,7 @@ import {
   graduate,
   ArticleSUM,
   HRC,
+  horizonpc,
 } from "../assets";
 
 export const navLinks = [
@@ -114,17 +115,46 @@ const technologies = [
 
 const experiences = [
   {
+    title: "HorrizonPC.shop",
+    company_name: "Freelancing",
+    icon:horizonpc,
+    iconBg: "#383E56",
+    date: "August 2023",
+    points: [
+      "Link: http://www.horizonpc.shop",
+      "Developed Horizonpc.shop which is an online ecommerce store designed to sell Computer.",
+      "Coordinated with client to build a modern and an appealing Online store to sell their products online.",
+      "Features: Payment Gate-ways, Shopping Cart, Modern design, Mobile Responsive",
+
+    ],
+  },
+  {
+    title: "Machine Learning",
+    company_name: "Coursera",
+    icon: coursera,
+    iconBg: "#383E56",
+    date: "Feb 2023",
+    points: [
+      "Gained applied",
+      "experience in major areas of Machine Learning including Prediction",
+      "Classification, Clustering, and Information Retrieval. You learned to",
+      "analyze large and complex datasets, create systems that adapt and",
+      "improve over time, and build intelligent applications that can make",
+      "predictions from data",
+    ],
+  },
+  {
     title: "SDE Intern",
     company_name: "HighRadius",
     icon:highradius,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "•	Worked on an AI-Enabled FinTech B2B Invoice Management Application",
-      "•	Attended daily ZOOM meetings, raising queries and also helping other Interns to solve theirs.",
-      "•	Technologies Used:" ,
-      "•	Machine Learning in Python, Java, Java Servlet.",
-      "•	SQL Database, React.js, HTML, CSS, JavaScript." ,
+      "Worked on an AI-Enabled FinTech B2B Invoice Management Application",
+      "Attended daily ZOOM meetings, raising queries and also helping other Interns to solve theirs.",
+      "Technologies Used:" ,
+      "Machine Learning in Python, Java, Java Servlet.",
+      "SQL Database, React.js, HTML, CSS, JavaScript." ,
 
     ],
   },
@@ -142,21 +172,6 @@ const experiences = [
       "application using React Native, and  Develop server-side support for",
       "the web application using Node.js, ExpressJS together with database",
       "support using MongoDB",
-    ],
-  },
-  {
-    title: "Machine Learning",
-    company_name: "Coursera",
-    icon: coursera,
-    iconBg: "#383E56",
-    date: "Feb 2023",
-    points: [
-      "Gained applied",
-      "experience in major areas of Machine Learning including Prediction",
-      "Classification, Clustering, and Information Retrieval. You learned to",
-      "analyze large and complex datasets, create systems that adapt and",
-      "improve over time, and build intelligent applications that can make",
-      "predictions from data",
     ],
   },
   {
@@ -223,6 +238,27 @@ const projects = [
     source_code_link: "https://car-hub-vishaluttam.vercel.app/",
   },
   {
+    name: "HorizonPC Online E-commerce",
+    description:
+      "Developed Horizonpc.shop which is an online ecommerce store designed to sell Computer for Client.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Payments Gateways",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: horizonpc,
+    source_code_link: "https://www.horizonpc.shop",
+  },
+  {
     name: "AI-Article Summarizer",
     description:
       "Web application that enables users to fetch textual data into a summarized form.Simply paste the link a an article into the link input and press enter and wait for the processing.",
@@ -244,7 +280,7 @@ const projects = [
     source_code_link: "https://vishaluttam.github.io/AI_text_Summarizer/",
   },
   {
-    name: "Trip Guide",
+    name: "HRC Intern",
     description:
       "SDE Intern HighRadius Worked on an AI-Enabled FinTech B2B Invoice Management Application.Tech:ML in Python, Java, Servlet, SQL Database, React.js, HTML, CSS, ES6.",
     tags: [
@@ -264,6 +300,7 @@ const projects = [
     image: HRC,
     source_code_link: "https://drive.google.com/drive/folders/1ZiqaW336jgnWr4MVjxMDerijBLTf603L?usp=sharing",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
